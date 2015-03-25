@@ -1,0 +1,51 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="SwitchButtonStyleDefault">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+
+    <style name="SwitchButtonStyleiOS" parent="SwitchButtonStyleDefault">
+        <item name="mc__sb_animationVelocity">8</item>
+        <item name="mc__sb_measureFactor">1.5</item>
+        <item name="mc__sb_offDrawable">@drawable/mc__sb_ios_off</item>
+        <item name="mc__sb_onColor">#43D95D</item>
+        <item name="mc__sb_thumbDrawable">@drawable/mc__sb_ios_thumb</item>
+        <item name="mc__sb_thumb_marginBottom">-8dp</item>
+        <item name="mc__sb_thumb_marginLeft">-5dp</item>
+        <item name="mc__sb_thumb_marginRight">-5dp</item>
+        <item name="mc__sb_thumb_marginTop">-2.5dp</item>
+    </style>
+
+    <style name="SwitchButtonStyle3D" parent="SwitchButtonStyleDefault">
+        <item name="mc__sb_animationVelocity">8</item>
+        <item name="mc__sb_offDrawable">@drawable/mc__sb_3d_back_off</item>
+        <item name="mc__sb_onDrawable">@drawable/mc__sb_3d_back_on</item>
+        <item name="mc__sb_thumbDrawable">@drawable/mc__sb_3d_thumb</item>
+        <item name="mc__sb_thumb_marginBottom">2dp</item>
+        <item name="mc__sb_thumb_marginLeft">3dp</item>
+        <item name="mc__sb_thumb_marginRight">3dp</item>
+        <item name="mc__sb_thumb_marginTop">3dp</item>
+    </style>
+
+    <style name="SwitchButtonStyleMD">
+        <item name="mc__sb_animationVelocity">6</item>
+        <item name="mc__sb_insetBottom">16dp</item>
+        <item name="mc__sb_insetTop">16dp</item>
+        <item name="mc__sb_insetLeft">16dp</item>
+        <item name="mc__sb_insetRight">16dp</item>
+        <item name="mc__sb_measureFactor">1.4</item>
+        <item name="mc__sb_offDrawable">@drawable/mc__sb_back_off</item>
+        <item name="mc__sb_onDrawable">@drawable/mc__sb_back_on</item>
+        <item name="mc__sb_thumbDrawable">@drawable/mc__sb_thumb</item>
+        <item name="mc__sb_thumb_margin">-17dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+</resources>

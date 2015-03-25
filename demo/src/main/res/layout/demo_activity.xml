@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical"
+    tools:context="com.kyleduo.switchbuttondemo.StyleActivity" >
+
+    <TextView
+        style="@style/StyleTitleText"
+        android:text="Default Style" />
+
+    <cc.mc0mm0n.widget.SwitchButton
+        style="@style/SwitchButtonStyleDefault" />
+
+    <TextView
+        style="@style/StyleTitleText"
+        android:text="Material Design" />
+
+    <cc.mc0mm0n.widget.SwitchButton
+        style="@style/SwitchButtonStyleMD" />
+
+    <TextView
+        style="@style/StyleTitleText"
+        android:text="iOS Style" />
+
+    <cc.mc0mm0n.widget.SwitchButton
+        style="@style/SwitchButtonStyleiOS" />
+
+    <TextView
+        style="@style/StyleTitleText"
+        android:text="3D Style" />
+
+    <cc.mc0mm0n.widget.SwitchButton
+        style="@style/SwitchButtonStyle3D" />
+
+</LinearLayout>

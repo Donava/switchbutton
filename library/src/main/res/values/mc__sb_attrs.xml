@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SwitchButton">
+        <attr name="mc__sb_onDrawable" format="reference" />
+        <attr name="mc__sb_offDrawable" format="reference" />
+        <attr name="mc__sb_thumbDrawable" format="reference" />
+        <attr name="mc__sb_thumb_margin" format="dimension|reference" />
+        <attr name="mc__sb_thumb_marginTop" format="dimension|reference" />
+        <attr name="mc__sb_thumb_marginBottom" format="dimension|reference" />
+        <attr name="mc__sb_thumb_marginLeft" format="dimension|reference" />
+        <attr name="mc__sb_thumb_marginRight" format="dimension|reference" />
+        <attr name="mc__sb_thumb_width" format="dimension|reference" />
+        <attr name="mc__sb_thumb_height" format="dimension|reference" />
+        <attr name="mc__sb_onColor" format="color|reference" />
+        <attr name="mc__sb_offColor" format="color|reference" />
+        <attr name="mc__sb_thumbColor" format="color|reference" />
+        <attr name="mc__sb_thumbPressedColor" format="color|reference" />
+        <attr name="mc__sb_animationVelocity" format="integer" />
+        <attr name="mc__sb_radius" format="integer" />
+        <attr name="mc__sb_measureFactor" format="float" />
+        <attr name="mc__sb_insetLeft" format="dimension|reference" />
+        <attr name="mc__sb_insetRight" format="dimension|reference" />
+        <attr name="mc__sb_insetTop" format="dimension|reference" />
+        <attr name="mc__sb_insetBottom" format="dimension|reference" />
+    </declare-styleable>
+
+</resources>
